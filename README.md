@@ -13,7 +13,7 @@
 
 <h2 align="center">Dynamic Survey</h2>
 Simple React/Redux app for creating a dynamic Survey that can use as module for any web APPs
----
+
 ## Introduction
 
 ### The App scenario is as following :
