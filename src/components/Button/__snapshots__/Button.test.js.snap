@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the button 1`] = `
+<button
+  className="button "
+  disabled={false}
+  onClick={[Function]}
+>
+  HELLO
+</button>
+`;
+
+exports[`responds to click 1`] = `
+<button
+  className="button "
+  disabled={false}
+  onClick={[Function]}
+>
+  TEXT
+</button>
+`;

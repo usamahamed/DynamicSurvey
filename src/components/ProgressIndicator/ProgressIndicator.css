@@ -1,0 +1,38 @@
+.progress-indicator {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: -120px;
+  top: -20px;
+  background-color: #fff;
+  border-radius: 50%;
+  line-height: 80px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.progress-indicator__circle {
+  fill: transparent;
+  stroke: #00a562;
+  stroke-width: 2;
+  stroke-dashoffset: 0;
+}
+
+.progress-indicator__svg-box {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transform: rotate(-90deg);
+}
+
+@media screen and (max-width: 850px) {
+  .progress-indicator {
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: -40px;
+  }
+}

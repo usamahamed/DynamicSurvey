@@ -1,0 +1,66 @@
+@keyframes ripple {
+  0% {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0);
+  }
+
+  50% {
+    box-shadow: 0 0 0 10 rgba(0, 0, 0, 0.1);
+  }
+
+  100% {
+    box-shadow: 0 0 0 10 rgba(0, 0, 0, 0);
+  }
+}
+
+.material-radio-button {
+  margin: 16px 0;
+}
+
+.material-radio-button input[type="radio"] {
+  display: none;
+}
+
+.material-radio-button input[type="radio"]:checked + label::before {
+  border-color: #4a148c;
+  animation: ripple 0.2s linear forwards;
+}
+
+.material-radio-button label {
+  display: inline-block;
+  position: relative;
+  height: 20;
+  margin-bottom: 0;
+  padding: 0 30px;
+  vertical-align: bottom;
+  cursor: pointer;
+}
+
+.material-radio-button label::before,
+.material-radio-button label::after {
+  position: absolute;
+  border-radius: 50%;
+  content: '';
+  transition: all 0.3s ease;
+  transition-property: transform, border-color;
+}
+
+.material-radio-button label::before {
+  top: 0;
+  left: 0;
+  width: 15px;
+  height: 15px;
+  border: 2px solid #4a148c;
+}
+
+.material-radio-button label::after {
+  top: 4px;
+  left: 4px;
+  width: 11px;
+  height: 11px;
+  transform: scale(0);
+  background: #4a148c;
+}
+
+.material-radio-button input[type="radio"]:checked + label::after {
+  transform: scale(1);
+}

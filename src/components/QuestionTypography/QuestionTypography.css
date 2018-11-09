@@ -1,0 +1,10 @@
+.question-typography {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 600px) {
+  .question-typography {
+    font-size: 24px;
+  }
+}

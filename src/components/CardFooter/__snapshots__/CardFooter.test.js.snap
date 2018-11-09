@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CardFooter/> renders the component 1`] = `
+<footer
+  className="clearfix card-footer"
+>
+  <div
+    className="right"
+  >
+    <Button
+      buttonClick={[Function]}
+      className="button--flat"
+      fieldValue={null}
+    >
+      BACK
+    </Button>
+    <Button
+      buttonClick={[Function]}
+      className="button--success"
+      fieldValue=""
+    >
+      SUBMIT
+    </Button>
+  </div>
+</footer>
+`;

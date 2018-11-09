@@ -1,0 +1,7 @@
+.card-footer {
+  padding: 20px 0 0;
+}
+
+.card-footer .button:first-child {
+  margin-right: 10px;
+}

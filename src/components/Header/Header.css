@@ -1,0 +1,44 @@
+.navbar {
+  box-sizing: border-box;
+  height: 60px;
+  background-color: #fff;
+}
+
+.navbar__brand {
+  display: table;
+  height: 100%;
+  margin: 0;
+  padding-left: 0;
+}
+
+.navbar__brand li {
+  display: table-cell;
+  height: 100%;
+  list-style-type: none;
+  vertical-align: middle;
+}
+
+.navbar__navigation button {
+  width: 100%;
+  height: 100%;
+  padding-left: 15px;
+  border: 0;
+  background: #fff;
+  cursor: pointer;
+}
+
+.navbar__navigation button:hover {
+  background-color: #f9f9f9;
+  transition: ease 0.3s background-color;
+}
+
+.navbar__navigation img {
+  display: block;
+  height: 25px;
+  margin-right: 7px;
+}
+
+.navbar__logo {
+  font-family: 'Redressed', cursive;
+  font-size: 30px;
+}

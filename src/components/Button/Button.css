@@ -1,0 +1,43 @@
+.button {
+  display: inline-block;
+  height: 40px;
+  padding: 0 14px;
+  border: 0;
+  border-radius: 4px;
+  outline: 0;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 40px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.button:hover {
+  box-shadow: 0 7px 14px rgba(50, 50, 93, 0.3), 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+.button--large {
+  height: 50px;
+  padding: 5px 15px;
+}
+
+.button--flat {
+  background-color: #f9f9f9;
+  box-shadow: none;
+}
+
+.button--flat:hover {
+  box-shadow: none;
+}
+
+.button--success {
+  background-color: #00a562;
+  color: #fff;
+}
+
+.button:disabled {
+  background-color: #024e2f;
+}
